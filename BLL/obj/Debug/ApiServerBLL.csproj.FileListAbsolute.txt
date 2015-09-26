@@ -1,0 +1,10 @@
+E:\AppLib\WSCaller\bin\ApiServerBLL.dll
+E:\AppLib\WSCaller\bin\ApiServerBLL.pdb
+E:\AppLib\WSCaller\BLL\obj\Debug\ApiServerBLL.dll
+E:\AppLib\WSCaller\BLL\obj\Debug\ApiServerBLL.pdb
+E:\AppLib\WSCaller\BLL\obj\Debug\ApiServerBLL.csprojResolveAssemblyReference.cache
+F:\Source Codes\WSCaller\bin\ApiServerBLL.dll
+F:\Source Codes\WSCaller\bin\ApiServerBLL.pdb
+F:\Source Codes\WSCaller\BLL\obj\Debug\ApiServerBLL.csprojResolveAssemblyReference.cache
+F:\Source Codes\WSCaller\BLL\obj\Debug\ApiServerBLL.dll
+F:\Source Codes\WSCaller\BLL\obj\Debug\ApiServerBLL.pdb

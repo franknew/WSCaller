@@ -1,0 +1,559 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WuZhouApi</name>
+    </assembly>
+    <members>
+        <member name="P:WuZhouApi.WuZhouPagingResponse.page_size">
+            <summary>
+            页长
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WuZhouPagingResponse.page_cur">
+            <summary>
+            当前页数
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WuZhouPagingResponse.total_num">
+            <summary>
+            数据总数
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.AddressInfo.receiver_name">
+            <summary>
+            收件人
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.AddressInfo.mobile">
+            <summary>
+            收件人手机
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.AddressInfo.phone">
+            <summary>
+            收件人座机
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.AddressInfo.country">
+            <summary>
+            国家
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.AddressInfo.province">
+            <summary>
+            省份
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.AddressInfo.city">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.AddressInfo.district">
+            <summary>
+            地区
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.AddressInfo.street">
+            <summary>
+            街道
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.GoodsInfo.brand">
+            <summary>
+            品牌
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.GoodsInfo.category_name">
+            <summary>
+            商品品类
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.GoodsInfo.goods_quantity">
+            <summary>
+            商品数量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.GoodsInfo.goods_weight">
+            <summary>
+            商品毛重
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.GoodsInfo.weight_unit">
+            <summary>
+            重量单号，默认KG
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticInfo.carrier_code">
+            <summary>
+            分运单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticInfo.carrier_company">
+            <summary>
+            发件公司
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticInfo.sender_address">
+            <summary>
+            发件地址
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticInfo.sender_telephone">
+            <summary>
+            发件电话
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallback.higo_internal_logistics_number">
+            <summary>
+            higo内部单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallback.logistics_type">
+            <summary>
+            物流状态
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallback.operate_time">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallback.express_company">
+            <summary>
+            快递公司
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallback.express_number">
+            <summary>
+            快递单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallback.process_success">
+            <summary>
+            处理结果，true成功，false失败
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallback.higo_internal_logistics_number">
+            <summary>
+            higo系统内部单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallback.logistics_exp_type">
+            <summary>
+            物流状态
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallback.operate_time">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallback.remark">
+            <summary>
+            异常备注
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallback.process_success">
+            <summary>
+            是否处理成功
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.date">
+            <summary>
+            日期，格式：yyyy-MM-dd
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.material_id">
+            <summary>
+            耗材id
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.material_name">
+            <summary>
+            耗材名称
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.consumed_quantity">
+            <summary>
+            消耗数量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.material_weight">
+            <summary>
+            总重量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.weight_unit">
+            <summary>
+            重量单位，默认：KG
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.material_fee">
+            <summary>
+            结算费用
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.fee_unit">
+            <summary>
+            费用单位，默认：CNY
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallback.process_success">
+            <summary>
+            处理结果，true：成功，false：失败
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.Order.order_info">
+            <summary>
+            订单信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.Order.goods_info">
+            <summary>
+            产品信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.Order.address_info">
+            <summary>
+            地址信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.Order.logistics_info">
+            <summary>
+            物流信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.OrderData.order_info">
+            <summary>
+            订单信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.OrderData.goods_info">
+            <summary>
+            产品信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.OrderData.address_info">
+            <summary>
+            寄件信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.OrderData.logistics_info">
+            <summary>
+            物流信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.OrderInfo.inter_logistics_number">
+            <summary>
+            国际物流编号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.OrderInfo.higo_internal_logistics_number">
+            <summary>
+            higo系统内部单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.OrderInfo.order_ctime">
+            <summary>
+            下单时间
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.OrderInfo.order_send_time">
+            <summary>
+            发货时间
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.clearance_date">
+            <summary>
+            清关批次，格式yyyy-MM-dd
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.total_weight">
+            <summary>
+            总重量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.weight_unit">
+            <summary>
+            重量单位，默认KG
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.shipping_fee">
+            <summary>
+            总运费
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.fee_unit">
+            <summary>
+            运费单位，默认CNY
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.inter_logistics_numbers">
+            <summary>
+            国际快递单号列表，以","分割
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.higo_internal_logistics_numbers">
+            <summary>
+            higo内部单号列表，以","分割
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.operate_time">
+            <summary>
+            操作时间，格式yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallback.operate_success">
+            <summary>
+            是否操作成功
+            </summary>
+        </member>
+        <member name="F:WuZhouApi.frmLogin.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:WuZhouApi.frmLogin.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:WuZhouApi.frmLogin.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:WuZhouApi.LogisticsCallbackRequest">
+            <summary>
+            物流回传
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallbackRequest.higo_internal_logistics_number">
+            <summary>
+            higo内部单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallbackRequest.logistics_type">
+            <summary>
+            物流状态
+            1001：香港元朗已入库
+            1002：香港元朗已出库
+            1003：等待清关
+            1004：清关完成
+            1005：深圳福永已入库
+            1006：深圳福永已出库
+            1007：交接第三方物流公司
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallbackRequest.express_company">
+            <summary>
+            快递公司，logistics_type：1007时必传
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsCallbackRequest.express_number">
+            <summary>
+            快递单号，logistics_type：1007时必传
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallbackRequest.higo_internal_logistics_number">
+            <summary>
+            higo系统内部单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallbackRequest.logistics_exp_type">
+            <summary>
+            异常状态
+            2001：香港元朗已入库异常
+            2002：香港元朗已出库异常
+            2003：等待清关异常
+            2004：清关完成异常
+            2005：深圳福永已入库异常
+            2006：深圳福永已出库异常
+            2007：交接第三方物流公司异常
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallbackRequest.operate_time">
+            <summary>
+            操作时间，格式：yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.LogisticsExpCallbackRequest.remark">
+            <summary>
+            异常备注
+            </summary>
+        </member>
+        <member name="T:WuZhouApi.QueryOrderRequest">
+            <summary>
+            查询运单信息
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.QueryOrderRequest.page_curr">
+            <summary>
+            当前页数
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.QueryOrderRequest.send_time_start">
+            <summary>
+            发货起始时间
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.QueryOrderRequest.send_time_end">
+            <summary>
+            发货终止时间
+            </summary>
+        </member>
+        <member name="T:WuZhouApi.ShippingFeeCallbackRequest">
+            <summary>
+            运费回传
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallbackRequest.clearance_date">
+            <summary>
+            清关批次，格式yyyy-MM-dd
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallbackRequest.total_weight">
+            <summary>
+            总重量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallbackRequest.weight_unit">
+            <summary>
+            重量单位，默认KG
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallbackRequest.shipping_fee">
+            <summary>
+            总运费
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallbackRequest.fee_unit">
+            <summary>
+            运费单位，默认CNY
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallbackRequest.inter_logistics_numbers">
+            <summary>
+            国际快递单号列表，以","分割
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallbackRequest.higo_internal_logistics_numbers">
+            <summary>
+            higo内部单号列表，以","分割
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.ShippingFeeCallbackRequest.operate_time">
+            <summary>
+            操作时间，格式yyyy-MM-dd HH:mm:ss
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WuZhouResponse.code">
+            <summary>
+            返回代码
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WuZhouResponse.message">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="T:WuZhouApi.LoginRequest">
+            <summary>
+            登录
+            </summary>
+        </member>
+        <member name="T:WuZhouApi.WeightCallbackRequest">
+            <summary>
+            重量回传
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallbackRequest.inter_logistics_number">
+            <summary>
+            国际快递单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallbackRequest.package_weight">
+            <summary>
+            包裹重量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallbackRequest.weight_unit">
+            <summary>
+            重量单位，默认KG
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallbackRequest.operate_time">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallbackRequest.date">
+            <summary>
+            日期，格式：yyyy-MM-dd
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallbackRequest.material_id">
+            <summary>
+            耗材id
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallbackRequest.material_name">
+            <summary>
+            耗材名称
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallbackRequest.consumed_quantity">
+            <summary>
+            消耗数量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallbackRequest.material_weight">
+            <summary>
+            总重量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallbackRequest.weight_unit">
+            <summary>
+            重量单位，默认：KG
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallbackRequest.material_fee">
+            <summary>
+            结算费用
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.MaterialConsumedCallbackRequest.fee_unit">
+            <summary>
+            费用单位，默认：CNY
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallback.inter_logistics_number">
+            <summary>
+            国际快递单号
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallback.package_weight">
+            <summary>
+            包裹重量
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallback.weight_unit">
+            <summary>
+            重量单位，默认KG
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallback.operate_time">
+            <summary>
+            操作时间
+            </summary>
+        </member>
+        <member name="P:WuZhouApi.WeightCallback.operate_success">
+            <summary>
+            处理结果，true成功，false失败
+            </summary>
+        </member>
+    </members>
+</doc>

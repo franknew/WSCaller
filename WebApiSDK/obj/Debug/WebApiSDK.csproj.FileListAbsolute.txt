@@ -1,0 +1,5 @@
+E:\AppLib\WSCaller\WebApiSDK\obj\Debug\WebApiSDK.csprojResolveAssemblyReference.cache
+E:\AppLib\WSCaller\bin\WebApiSDK.dll
+E:\AppLib\WSCaller\bin\WebApiSDK.pdb
+E:\AppLib\WSCaller\WebApiSDK\obj\Debug\WebApiSDK.dll
+E:\AppLib\WSCaller\WebApiSDK\obj\Debug\WebApiSDK.pdb

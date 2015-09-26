@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "net452": {
+      "wrappedProject": "../../BLL.csproj",
+      "bin": {
+        "assembly": "../../obj/{configuration}/BLL.dll",
+        "pdb": "../../obj/{configuration}/BLL.pdb"
+      }
+    },
+    "net40": {
+      "wrappedProject": "../../BLL.csproj",
+      "bin": {
+        "assembly": "../../obj/{configuration}/BLL.dll",
+        "pdb": "../../obj/{configuration}/BLL.pdb"
+      },
+      "dependencies": {
+        "SOAFramework.Library.DAL": "1.0.0-*",
+        "System.Net.Http": "1.0.0-*"
+      }
+    }
+  }
+}

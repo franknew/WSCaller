@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<body>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var code = getQueryStringByName("code");
+            window.external.CloseForm(code);
+        });
+
+        function getQueryStringByName(name) {
+
+            var result = location.search.match(new RegExp("[\?\&]" + name + "=([^\&]+)", "i"));
+
+            if (result == null || result.length < 1) {
+
+                return "";
+
+            }
+
+            return result[1];
+
+        }
+    </script>
+</body>
+</html>

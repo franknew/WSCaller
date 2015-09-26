@@ -1,0 +1,14 @@
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\WebApiSDK.dll
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\WuZhouApi.dll
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\SOAFramework.Library.Http.dll
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\Newtonsoft.Json.dll
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\WebApiSDK.pdb
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\WuZhouApi.pdb
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\Newtonsoft.Json.xml
+E:\AppLib\WSCaller\WebApiBLL\obj\Debug\WebApiBLL.csprojResolveAssemblyReference.cache
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\SOAFramework.Library.Http.pdb
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\WuZhouApi.xml
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\HigoApiBLL.dll
+E:\AppLib\WSCaller\WebApiBLL\bin\Debug\HigoApiBLL.pdb
+E:\AppLib\WSCaller\WebApiBLL\obj\Debug\HigoApiBLL.dll
+E:\AppLib\WSCaller\WebApiBLL\obj\Debug\HigoApiBLL.pdb

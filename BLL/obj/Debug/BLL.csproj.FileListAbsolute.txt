@@ -1,0 +1,7 @@
+E:\AppLib\WSCaller\BLL\bin\Debug\BLL.dll
+E:\AppLib\WSCaller\BLL\bin\Debug\BLL.pdb
+E:\AppLib\WSCaller\BLL\bin\Debug\SOAFramework.Library.DAL.dll
+E:\AppLib\WSCaller\BLL\obj\Debug\BLL.dll
+E:\AppLib\WSCaller\BLL\obj\Debug\BLL.pdb
+E:\AppLib\WSCaller\bin\BLL.dll
+E:\AppLib\WSCaller\bin\BLL.pdb
