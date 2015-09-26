@@ -80,5 +80,71 @@ namespace WinformTest
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                LogisticsBLL bll = new LogisticsBLL();
+                var response = bll.ExpCallback(new LogisticsExpCallback
+                {
+                    higo_internal_logistics_number = "CW543784919US-2",
+                    operate_time = DateTime.Now.ToString(Common.DateTimeFormat),
+                    logistics_exp_type = 2002,
+                    remark = "test",
+                }, ref token);
+                MessageBox.Show(response.process_success.ToString());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                LogisticsBLL bll = new LogisticsBLL();
+                var response = bll.MaterialConsumedCallback(new MaterialConsumedCallback
+                {
+                    consumed_quantity = 12,
+                    date = DateTime.Now.ToString("yyyy-MM-dd"),
+                    material_fee = 6,
+                    fee_unit = "CNY",
+                    material_id = 1,
+                    material_name = "test m",
+                    material_weight = 12.2,
+                }, ref token);
+                MessageBox.Show(response.process_success.ToString());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                LogisticsBLL bll = new LogisticsBLL();
+                var response = bll.ShippingFeeCallback(new ShippingFeeCallback
+                {
+                    fee_unit = "CNY",
+                    clearance_date = DateTime.Now.ToString("yyyy-MM-dd"),
+                    higo_internal_logistics_numbers = "CW543784919US-2",
+                    inter_logistics_numbers = "CW543784919US - 2",
+                    operate_time = DateTime.Now.ToString(Common.DateTimeFormat),
+                    shipping_fee = 10.1,
+                    total_weight = 100,
+                }, ref token);
+                MessageBox.Show(response.operate_success.ToString());
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace WebApiBLL
             switch (response.code)
             {
                 case 400109:
+                case 500103:
                     LoginBLL bll = new LoginBLL();
                     token = bll.Login();
                     if (string.IsNullOrEmpty(token))
